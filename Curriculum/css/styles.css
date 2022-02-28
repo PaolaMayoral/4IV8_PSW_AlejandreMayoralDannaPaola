@@ -1,0 +1,42 @@
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-image: url(https://thumbs.dreamstime.com/b/rana-adorable-con-fondo-pastel-dibujada-mano-sin-costura-para-impresi%C3%B3n-de-tela-papel-envoltura-textil-192253043.jpg);
+    background-size:cover;
+  }
+
+.childA{
+    padding-left: 20px;
+    padding-right: 3px;
+    float:left;
+    width:20%;
+    background-color:rgb(169, 255, 169);
+    height:10%;
+}
+.childB {
+    float:right;
+    width:75%;
+    background-image: url(https://thumbs.dreamstime.com/b/rana-adorable-con-fondo-pastel-dibujada-mano-sin-costura-para-impresi%C3%B3n-de-tela-papel-envoltura-textil-192253043.jpg);
+    background-size:cover;
+    height:100%;
+} 
+
+img{
+    border-radius: 50%;
+}
+.barra{
+    height: 5px;
+    margin-left: 20%;
+    margin-right: 0%;
+    background-color: rgba(60, 61, 63, 0.767);
+  }
+.barrita{
+    height: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(60, 61, 63, 0.767);
+}
+table{
+    padding: 2% 2%;
+}
