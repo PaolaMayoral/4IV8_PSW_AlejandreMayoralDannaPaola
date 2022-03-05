@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de automovil</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+    <div class="container-form">      
+        <div class="main-datos">
+            <div class="top">
+                    <h2 align="center"><img src="img/titulo.png" height="70px" width="30%" ></h2>
+                <p align="center">Calcular el monto a pagar por un automovil</p>
+            </div>
+            <hr>
+            <div class="body">
+            <div class="ingresadatos" align="center">
+                <br>
+                <h3><b>Datos iniciales</b></h3>
+                <br>
+                <form method="post" name="ingresaDatos" id="ingresarDatos" onsubmit="return validar(this)">
+                  <table class="tablita">
+                   </tr>
+                        <td><input type="number" class="precio" name="precio" id="precio" min="100000.00" max="1000000.00" placeholder="Precio del automovil"></td>
+                        <td><input type="number" class="cuotaIn" name="cuotaIn" id="cuotaIn" min="10" max="100" placeholder="Porcentaje de cuota inicial"></td>
+                        <td>
+                         <select name="periodo" id="periodo">
+                            <optgroup label="Cantidad de meses a pagar">
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="8">9</option>
+                                <option value="12">12</option>
+                                <option value="18">18</option>
+                            </optgroup>
+                         </select>
+                        </td>
+                     <tr>
+                  </table>
+
+                    <br>
+                    <br>
+                    <input type="submit" class="agregar" name="agregar" value="Agregar Datos">
+                    <input type="reset" class="borrar" name="borrar" value="Borrar Datos">
+                </form>
+                <br>
+                <br>
+            </div>
+            <div class="tablaqhablasola">
+                
+                <table id="tablaAuto" border="2">
+                    <thead>
+                        <tr>
+                            <th>Precio</th>
+                            <th>Cuota Inicial</th>
+                            <th>Periodo</th>
+                            <th>Interés</th>
+                            <th>Cuota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <div id="contenedorTabla">
+                        </div>
+                    </tbody>
+                </table>
+                <br>
+                <a href="../index.html">Página principal</a>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <script src="js/validacion.js"></script>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer align="center">
+        <p>Author: Alejandre Mayoral Danna Paola<br>
+        <a href="mailto:alejandre.mayoral.danna.paola@gmail.com">alejandre.mayoral.danna.paola@gmail.com</a></p>
+      </footer>
+</body>
+</html>
