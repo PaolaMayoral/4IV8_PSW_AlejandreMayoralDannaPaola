@@ -1,0 +1,135 @@
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    float:top;
+    width:97%;
+    background-color:rgb(241, 235, 141);
+    height: 200px;
+
+}
+img{
+    border-radius: 15%;
+}
+.principal{
+    float:bottom;
+    width:100%;
+    background-image: url(https://i.pinimg.com/564x/65/15/0f/65150f3f3b5c681e31ba20db8cc78bb6.jpg);
+    background-size:cover;
+    height:100%;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+.imgAnim{
+    animation: slidein duration timing-function delay iteration-count direction fill-mode;
+}
+  
+.main{
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
+    background-color:rgb(195, 255, 183);
+    height: 100%;
+}
+.todo{
+  background-image: url(https://i.pinimg.com/originals/b8/c6/b3/b8c6b3d230fa838b5acf285f8821e6c3.jpg);
+  height: 500px;
+}
+.izq{
+  padding-left: 20px;
+  padding-right: 20px;
+  float:left;
+  width:20%;
+  background-color:rgb(241, 235, 141);
+  height: 1000px;
+}
+.der{
+  padding-left: 20px;
+  padding-right: 20px;
+  float:right;
+  width:20%;
+  background-color:rgb(241, 235, 141);
+  height: 1000px;
+}
+.cntr{
+  margin-left: 20%;
+  margin-right: 20%;
+  float: none;
+  width: 60%;
+  background-color:rgba(141, 241, 158, 0.568);
+  height: 1200px;
+}
+.cuerpo{
+  background-image: url(https://i.pinimg.com/564x/11/fb/78/11fb78dcba039b3265d154fc78c927fe.jpg);
+}
+.encbz{
+  margin-left: 20px;
+  margin-right: 20px;
+  float: top;
+  width: 100%;
+  background-color:rgba(141, 241, 158, 0.568);
+  height: 200px;
+}
+
+.der2{
+  padding-left: 20px;
+  padding-right: 20px;
+  float:right;
+  width:20%;
+  background-color:rgba(141, 241, 158, 0.568);
+  height: 1000px;
+}
+
+
+.texto{
+  bottom: 5%;
+  height: 400px;
+}
+
+.circImg1{
+  display: inline-block;
+  vertical-align: bottom;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.circImg2{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.textCntr{
+  text-align: center;
+}
+
+.fondo{
+  background-color: rgba(112, 255, 248, 0.473);
+  height: 630px;
+}
+.enlace{
+  text-align: center;
+}
