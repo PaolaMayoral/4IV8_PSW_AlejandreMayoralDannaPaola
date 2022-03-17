@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Problemas Java Script</title>
+</head>
+<body>
+
+    <!--Problema 1-->
+    <div class="problem1">
+        <h1><img src="img/title1.png" width="550px" height="80px"> </h1>
+        <table>
+            <tr>
+                <td>
+                    <h3>Ingresa la cantidad de dinero que desees invertir</h3>
+                    <input placeholder="Cantidad a invertir" type="number" class="ingreso" name="ingreso" id="ingreso"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Ingresa la cantidad de meses que desees </h3>
+                    <input placeholder="Tiempo deseado (meses)" type="number" class="meses" name="meses" id="meses"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <button type="button" onclick="problema1()">Ver ingresos</button>
+        <pre class="salida" id="p1-salida">Esperando Datos...</pre>
+    </div>
+
+    <!--Problema 2-->
+    <div class="problem2">
+        <h1><img src="img/title2.png" width="550px" height="80px"></h1>
+        <table>
+            <tr>
+                <td>
+                    <h3>Ingresa sueldo base</h3>
+                    <input placeholder="Sueldo base" type="number" class="sueldoB" name="sueldoB" id="sueldoB"
+                    onkeyup="this.value=Numeros(this.value)">
+                    
+                </td>
+                <td>
+                    <h3>Ingresa el total de la primera venta</h3>
+                    <input placeholder="Primera venta" type="number" class="vent1" name="vent1" id="vent1"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Ingresa el total de la segunda venta</h3>
+                    <input placeholder="Segunda venta" type="number" class="vent2" name="vent2" id="vent2"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Ingresa el total de la tercera venta</h3>
+                    <input placeholder="Tercera venta" type="number" class="vent3" name="vent3" id="vent3"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+            <tr>    
+        </table>
+        <br>
+        <br>
+        <button type="button" onclick="problema2()">Total de ganancias</button>
+        <pre class="salida" id="p2-salida" >Esperando Datos...</pre> 
+    </div>
+
+    <!--Problema 3-->
+    <div class="problem3">
+        <h1><img src="img/title3.png" width="550px" height="80px"></h1>
+        <h3>Precio del artículo</h3>
+        <input placeholder="Precio del articulo" type="number" class="precio" name="precio" id="precio" 
+        onkeyup="this.value=Numeros(this.value)">
+        
+        <br>
+        <br>
+        <button type="button" onclick="problema3()"> Calcular descuento</button>
+        <pre class="salida" id="p3-salida">Esperando datos...</pre>
+        
+    </div>
+
+    <!--Problema 4-->
+    <div class="problem4">
+        <h1><img src="img/title4.png" width="550px" height="80px"></h1>
+        <table>
+            <tr>
+                <td>
+                    <h3>Calificacion del 1er parcial</h3>
+                    <input placeholder="1er parcial " type="number" class="c1" name="c1" id="c1"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Calificacion del 2do parcial</h3>
+                    <input placeholder="2do parcial " type="number" class="c2" name="c2" id="c2"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                 <td>
+                    <h3>Calificacion del 3er parcial</h3>
+                    <input placeholder="3er parcial " type="number" class="c3" name="c3" id="c3"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Calificacion del examen FINAL</h3>
+                    <input placeholder="Examen final " type="number" class="exa" name="exa" id="exa"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Calificacion del trabajo FINAL</h3>
+                     <input placeholder="Trabajo final " type="number" class="trbj" name="trbj" id="trbj"
+                     onkeyup="this.value=Numeros(this.value)">
+             </td>
+        </tr>
+    </table>
+        <br>
+        <br>
+        <button type="button" onclick="problema4()"> Calcular calificacion</button>
+
+        <pre class="salida" id="p4-salida">Esperando Datos...</pre>
+
+    </div>
+
+    <!--Problema 5-->
+    <div class="problem5">
+        <h1><img src="img/title5.png" width="550px" height="80px"></h1>
+       <table>
+           <tr>
+               <td>
+                    <h3>Ingresa el numero total de estudiantes</h3>
+                    <input placeholder="Alumnos" type="number" class="tAlumnos" name="tAlumnos" id="tAlumnos"
+                    onkeyup="this.value=Numeros(this.value)">
+                <td>
+                    <h3>Ingresa el numero de estudiantes mujeres</h3>
+                    <input placeholder="Estudiantes mujeres" type="number" class="aMujeres" name="aMujeres" id="aMujeres"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>Ingresa el numero de estudiantes hombres</h3>
+                    <input placeholder="Estudiantes hombres" type="number" class="aHombres" name="aHombres" id="aHombres"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+            </tr>
+       </table>
+        <br>
+        <br>
+        <button type="button" onclick="problema5()" >Calcular porcentaje de estudiantes</button>
+        <pre class="salida" id="p5-salida">Esperando Datos...</pre>
+
+    </div>
+
+    <!--Problema 6-->
+    <div class="problem6">
+        <h1><img src="img/title6.png" width="550px" height="80px"></h1>
+        <table>
+            <tr>
+                <td>
+                    <h3>¿Cuál es tu año de nacimiento?</h3>
+                    <input placeholder="Año de nacimiento" type="number" class='aNac' name="aNac" id="aNac"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+                <td>
+                    <h3>¿Cuál es el año actual?</h3>
+                    <input placeholder="Año actual" type="number" class='act' name="act" id="act"
+                    onkeyup="this.value=Numeros(this.value)">
+                </td>
+            </tr>    
+        </table> 
+        <br>
+        <br>
+        <button type="button" onclick="problema6()">Calcular mi edad</button>
+        <pre class="salida" id="p6-salida">Esperando Datos...</pre>
+            
+    </div>
+    <p><a href="../index.html">Página principal</a></p>
+    <script src="js/problemas.js"></script>
+</body>
+</html>
