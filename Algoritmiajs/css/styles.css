@@ -1,0 +1,63 @@
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: rgba(52, 248, 255, 0.295);
+    
+}
+.problema-container {
+    float:left;
+    width:48%;
+    height: 650px;
+    margin: 8px;
+    background-color: rgba(152, 255, 152, 0.541);
+}
+.problema-container1 {
+    float:right;
+    width:48%;
+    height: 650px;
+    margin: 8px;
+    background-color: rgba(255, 162, 162, 0.541);
+}
+.problema-container2 {
+    float:left;
+    width:100%;
+    height: 380px;
+    margin: 8px;
+    background-color: rgba(255, 229, 142, 0.664);
+}
+.problema-content{
+    text-align: center;
+    flex-flow: column;    
+}
+.bottom{
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+input.problema-input{
+    padding: 7px;
+    background: none;
+    width: 50%;
+    height: 15px;
+    font-size: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-radius: 4px;
+}
+.problema-output{
+    width: 40%;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    border: 1px solid #00000069;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 185px;
+    font-size: 18px;
+}
