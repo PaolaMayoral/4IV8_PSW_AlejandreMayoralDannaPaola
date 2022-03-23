@@ -61,8 +61,6 @@ th,td{
     cursor: pointer;
     background-color: rgb(163, 244, 255);
     color: rgb(2, 2, 2);
-    width: 120px;
-    height: 40px;
     font-size: 15px;
     border-radius: 5px;
     overflow: hidden;
